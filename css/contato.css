@@ -19,12 +19,24 @@
 .contato-lista a {
   text-decoration: none;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
 .contato-container h3 {
   grid-column: 1 / -1;
+}
+
+@media (max-width: 1000px) {
+  .contato-lista a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .contato-lista a {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -51,5 +63,9 @@
   .contato-container h3 {
     font-size: 0.8rem;
     text-align: center;
+  }
+
+  .contato-lista a {
+    font-size: 1.2rem;
   }
 }

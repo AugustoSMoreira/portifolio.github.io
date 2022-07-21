@@ -51,3 +51,15 @@ img {
 .seta:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 800px) {
+  .seta {
+    width: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .seta {
+    width: 20px;
+    border: none;
+  }
+}

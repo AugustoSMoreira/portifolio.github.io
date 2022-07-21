@@ -129,4 +129,10 @@
   .empresa {
     grid-template-columns: 1fr;
   }
+
+}
+@media (max-width: 400px) {
+  .experiencia .subtitulo {
+    font-size: 2.5rem;
+  }
 }
