@@ -36,7 +36,6 @@
 }
 
 @media (max-width: 850px) {
- 
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 30px;

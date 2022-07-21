@@ -1,12 +1,15 @@
 body {
   margin: 0px;
-  font-family: 'Fira Sans', Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
   color: #141414;
   background-color: #fcfcfc;
   position: relative;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
